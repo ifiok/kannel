@@ -131,6 +131,7 @@ SINGLE_GROUP(core,
     OCTSTR(sms-combine-concatenated-mo)
     OCTSTR(sms-combine-concatenated-mo-timeout)
     OCTSTR(http-timeout)
+    OCTSTR(black-list-redis)
 )
 
 
@@ -233,6 +234,7 @@ MULTI_GROUP(wap-push-user,
     OCTSTR(default-smsc)
     OCTSTR(dlr-url)
     OCTSTR(smsbox-id)
+    OCTSTR(black-list-redis)
 )
 
 
@@ -290,6 +292,7 @@ SINGLE_GROUP(smsbox,
     OCTSTR(immediate-sendsms-reply)
     OCTSTR(max-pending-requests)
     OCTSTR(http-timeout)
+    OCTSTR(black-list-redis)
 )
 
 
@@ -476,6 +479,7 @@ MULTI_GROUP(sms-service,
     OCTSTR(dlr-mask)
     OCTSTR(keyword-regex)
     OCTSTR(alt-charset)
+    OCTSTR(black-list-redis)
 )
 
 
@@ -505,6 +509,7 @@ MULTI_GROUP(sendsms-user,
     OCTSTR(denied-prefix-regex)
     OCTSTR(white-list-regex)
     OCTSTR(black-list-regex)
+    OCTSTR(black-list-redis)
 )
 
 
